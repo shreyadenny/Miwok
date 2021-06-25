@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:minHeight="@dimen/list_item_height"
+
+    android:orientation="horizontal"
+    android:background="@color/tan_background">
+    <ImageView
+        android:layout_width="@dimen/list_item_height"
+        android:id="@+id/imageFamily"
+        android:layout_height="@dimen/list_item_height"
+
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:id="@+id/familylist"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="bottom"
+    android:paddingLeft="16dp"
+    tools:text="epe"
+    android:id="@+id/miwokFamily"
+    android:textAppearance="?android:textAppearanceMedium"
+    android:textColor="@android:color/white"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="top"
+    android:paddingLeft="16dp"
+    android:textAppearance="?android:textAppearanceMedium"
+    android:textColor="@android:color/white"
+    tools:text="father"
+    android:id="@+id/englishFamily"
+    />
+
+</LinearLayout>
+    <ImageView
+            android:id="@+id/play_button"
+            android:src="@drawable/ic_playbutton"
+            android:text="Play"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+    </RelativeLayout>
+</LinearLayout>
